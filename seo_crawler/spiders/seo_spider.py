@@ -32,7 +32,3 @@ class SeoSpider(scrapy.Spider):
         item['status_code'] = response.status 
         return item
 
-
-
-
-
