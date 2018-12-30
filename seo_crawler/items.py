@@ -6,25 +6,24 @@
 # http://doc.scrapy.org/en/latest/topics/items.html
 
 import scrapy
-from scrapy.item import Item, Field
 
 class SeoCrawlerItem(scrapy.Item):
 
-    url = Field()
-    slug = Field()
-    directories = Field()
-    title = Field()
-    h1 = Field()
-    h2 = Field()
-    h3 = Field()
-    h4 = Field()
-    description = Field()
-    img_count = Field()
-    img_links = Field()
-    img_alt_tags = Field()
-    link_count = Field()
-    link_urls = Field()
-    link_text = Field()
-    load_time = Field()
-    status_code = Field()
+    url = scrapy.Field()
+    slug = scrapy.Field()
+    directories = scrapy.Field()
+    title = scrapy.Field()
+    h1 = scrapy.Field()
+    h2 = scrapy.Field()
+    h3 = scrapy.Field()
+    h4 = scrapy.Field()
+    description = scrapy.Field()
+    img_count = scrapy.Field()
+    img_links = scrapy.Field()
+    img_alt_tags = scrapy.Field()
+    link_count = scrapy.Field()
+    link_urls = scrapy.Field()
+    link_text = scrapy.Field()
+    load_time = scrapy.Field()
+    status_code = scrapy.Field()
     
